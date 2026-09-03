@@ -1,0 +1,953 @@
+{
+  "schema": {
+    "name": "Proposed 3D ULPIN Cadastral Model",
+    "version": "0.1.0",
+    "status": "prototype",
+    "crs": "EPSG:32646",
+    "geometry_source": "GeoJSON + OBJ",
+    "ulpin_status": "not_generated"
+  },
+  "study_areas": [
+    {
+      "study_area_id": "AS01",
+      "name": "Synthetic ULPIN Study Area",
+      "crs": "EPSG:32646",
+      "parcels": [
+        {
+          "parcel_id": "P001",
+          "parcel_type": "RESIDENTIAL",
+          "area_m2": 40800.0,
+          "geometry_source": "parcels.geojson",
+          "buildings": [
+            {
+              "building_id": "B001",
+              "parcel_id": "P001",
+              "building_type": "RESIDENTIAL",
+              "height_m": 15.0,
+              "z_min": 0.0,
+              "z_max": 15.0,
+              "geometry_source": "buildings.geojson",
+              "3d_geometry_source": "buildings_3d.obj",
+              "floors": [
+                {
+                  "floor_id": "B001_F01",
+                  "building_id": "B001",
+                  "floor_type": "STANDARD",
+                  "floor_number": 1,
+                  "z_min": 0.0,
+                  "z_max": 3.0,
+                  "height_m": 3.0,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B001_F01_U0101",
+                      "floor_id": "B001_F01",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 0.0,
+                      "z_max": 3.0,
+                      "volume_m3": 21120.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B001_F01_U0102",
+                      "floor_id": "B001_F01",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 0.0,
+                      "z_max": 3.0,
+                      "volume_m3": 15840.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B001_F01_U0103",
+                      "floor_id": "B001_F01",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 0.0,
+                      "z_max": 3.0,
+                      "volume_m3": 15840.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                },
+                {
+                  "floor_id": "B001_F02",
+                  "building_id": "B001",
+                  "floor_type": "STANDARD",
+                  "floor_number": 2,
+                  "z_min": 3.0,
+                  "z_max": 6.0,
+                  "height_m": 3.0,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B001_F02_U0201",
+                      "floor_id": "B001_F02",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 3.0,
+                      "z_max": 6.0,
+                      "volume_m3": 21120.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B001_F02_U0202",
+                      "floor_id": "B001_F02",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 3.0,
+                      "z_max": 6.0,
+                      "volume_m3": 15840.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B001_F02_U0203",
+                      "floor_id": "B001_F02",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 3.0,
+                      "z_max": 6.0,
+                      "volume_m3": 15840.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                },
+                {
+                  "floor_id": "B001_F03",
+                  "building_id": "B001",
+                  "floor_type": "STANDARD",
+                  "floor_number": 3,
+                  "z_min": 6.0,
+                  "z_max": 9.0,
+                  "height_m": 3.0,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B001_F03_U0301",
+                      "floor_id": "B001_F03",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 6.0,
+                      "z_max": 9.0,
+                      "volume_m3": 21120.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B001_F03_U0302",
+                      "floor_id": "B001_F03",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 6.0,
+                      "z_max": 9.0,
+                      "volume_m3": 15840.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B001_F03_U0303",
+                      "floor_id": "B001_F03",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 6.0,
+                      "z_max": 9.0,
+                      "volume_m3": 15840.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                },
+                {
+                  "floor_id": "B001_F04",
+                  "building_id": "B001",
+                  "floor_type": "STANDARD",
+                  "floor_number": 4,
+                  "z_min": 9.0,
+                  "z_max": 12.0,
+                  "height_m": 3.0,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B001_F04_U0401",
+                      "floor_id": "B001_F04",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 9.0,
+                      "z_max": 12.0,
+                      "volume_m3": 21120.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B001_F04_U0402",
+                      "floor_id": "B001_F04",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 9.0,
+                      "z_max": 12.0,
+                      "volume_m3": 15840.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B001_F04_U0403",
+                      "floor_id": "B001_F04",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 9.0,
+                      "z_max": 12.0,
+                      "volume_m3": 15840.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                },
+                {
+                  "floor_id": "B001_F05",
+                  "building_id": "B001",
+                  "floor_type": "STANDARD",
+                  "floor_number": 5,
+                  "z_min": 12.0,
+                  "z_max": 15.0,
+                  "height_m": 3.0,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B001_F05_U0501",
+                      "floor_id": "B001_F05",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 12.0,
+                      "z_max": 15.0,
+                      "volume_m3": 21120.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B001_F05_U0502",
+                      "floor_id": "B001_F05",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 12.0,
+                      "z_max": 15.0,
+                      "volume_m3": 15840.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B001_F05_U0503",
+                      "floor_id": "B001_F05",
+                      "building_id": "B001",
+                      "parcel_id": "P001",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 12.0,
+                      "z_max": 15.0,
+                      "volume_m3": 15840.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "underground_assets": [
+            {
+              "asset_id": "UA001",
+              "parcel_id": "P001",
+              "asset_type": "WATER_PIPE",
+              "asset_name": "Primary Water Supply",
+              "z_min": -4.0,
+              "z_max": -3.0,
+              "area_m2": 160.0,
+              "volume_m3": 160.0,
+              "geometry_source": "underground_assets.geojson",
+              "3d_geometry_source": "underground_assets_3d.obj"
+            }
+          ]
+        },
+        {
+          "parcel_id": "P002",
+          "parcel_type": "RESIDENTIAL",
+          "area_m2": 40800.0,
+          "geometry_source": "parcels.geojson",
+          "buildings": [
+            {
+              "building_id": "B002",
+              "parcel_id": "P002",
+              "building_type": "RESIDENTIAL",
+              "height_m": 18.0,
+              "z_min": 0.0,
+              "z_max": 18.0,
+              "geometry_source": "buildings.geojson",
+              "3d_geometry_source": "buildings_3d.obj",
+              "floors": [
+                {
+                  "floor_id": "B002_B01",
+                  "building_id": "B002",
+                  "floor_type": "BASEMENT",
+                  "floor_number": 0,
+                  "z_min": -3.0,
+                  "z_max": 0.0,
+                  "height_m": 3.0,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": []
+                },
+                {
+                  "floor_id": "B002_F01",
+                  "building_id": "B002",
+                  "floor_type": "STANDARD",
+                  "floor_number": 1,
+                  "z_min": 0.0,
+                  "z_max": 3.6,
+                  "height_m": 3.6,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B002_F01_U0101",
+                      "floor_id": "B002_F01",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 0.0,
+                      "z_max": 3.6,
+                      "volume_m3": 25344.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B002_F01_U0102",
+                      "floor_id": "B002_F01",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 0.0,
+                      "z_max": 3.6,
+                      "volume_m3": 19008.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B002_F01_U0103",
+                      "floor_id": "B002_F01",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 0.0,
+                      "z_max": 3.6,
+                      "volume_m3": 19008.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                },
+                {
+                  "floor_id": "B002_F02",
+                  "building_id": "B002",
+                  "floor_type": "STANDARD",
+                  "floor_number": 2,
+                  "z_min": 3.6,
+                  "z_max": 7.2,
+                  "height_m": 3.6,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B002_F02_U0201",
+                      "floor_id": "B002_F02",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 3.6,
+                      "z_max": 7.2,
+                      "volume_m3": 25344.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B002_F02_U0202",
+                      "floor_id": "B002_F02",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 3.6,
+                      "z_max": 7.2,
+                      "volume_m3": 19008.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B002_F02_U0203",
+                      "floor_id": "B002_F02",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 3.6,
+                      "z_max": 7.2,
+                      "volume_m3": 19008.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                },
+                {
+                  "floor_id": "B002_F03",
+                  "building_id": "B002",
+                  "floor_type": "STANDARD",
+                  "floor_number": 3,
+                  "z_min": 7.2,
+                  "z_max": 10.8,
+                  "height_m": 3.6000000000000005,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B002_F03_U0301",
+                      "floor_id": "B002_F03",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 7.2,
+                      "z_max": 10.8,
+                      "volume_m3": 25344.000000000004,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B002_F03_U0302",
+                      "floor_id": "B002_F03",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 7.2,
+                      "z_max": 10.8,
+                      "volume_m3": 19008.000000000004,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B002_F03_U0303",
+                      "floor_id": "B002_F03",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 7.2,
+                      "z_max": 10.8,
+                      "volume_m3": 19008.000000000004,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                },
+                {
+                  "floor_id": "B002_F04",
+                  "building_id": "B002",
+                  "floor_type": "STANDARD",
+                  "floor_number": 4,
+                  "z_min": 10.8,
+                  "z_max": 14.4,
+                  "height_m": 3.5999999999999996,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B002_F04_U0401",
+                      "floor_id": "B002_F04",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 10.8,
+                      "z_max": 14.4,
+                      "volume_m3": 25343.999999999996,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B002_F04_U0402",
+                      "floor_id": "B002_F04",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 10.8,
+                      "z_max": 14.4,
+                      "volume_m3": 19007.999999999996,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B002_F04_U0403",
+                      "floor_id": "B002_F04",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 10.8,
+                      "z_max": 14.4,
+                      "volume_m3": 19007.999999999996,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                },
+                {
+                  "floor_id": "B002_F05",
+                  "building_id": "B002",
+                  "floor_type": "STANDARD",
+                  "floor_number": 5,
+                  "z_min": 14.4,
+                  "z_max": 18.0,
+                  "height_m": 3.5999999999999996,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B002_F05_U0501",
+                      "floor_id": "B002_F05",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 14.4,
+                      "z_max": 18.0,
+                      "volume_m3": 25343.999999999996,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B002_F05_U0502",
+                      "floor_id": "B002_F05",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 14.4,
+                      "z_max": 18.0,
+                      "volume_m3": 19007.999999999996,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B002_F05_U0503",
+                      "floor_id": "B002_F05",
+                      "building_id": "B002",
+                      "parcel_id": "P002",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 14.4,
+                      "z_max": 18.0,
+                      "volume_m3": 19007.999999999996,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "underground_assets": []
+        },
+        {
+          "parcel_id": "P003",
+          "parcel_type": "RESIDENTIAL",
+          "area_m2": 40800.0,
+          "geometry_source": "parcels.geojson",
+          "buildings": [
+            {
+              "building_id": "B003",
+              "parcel_id": "P003",
+              "building_type": "RESIDENTIAL",
+              "height_m": 21.0,
+              "z_min": 0.0,
+              "z_max": 21.0,
+              "geometry_source": "buildings.geojson",
+              "3d_geometry_source": "buildings_3d.obj",
+              "floors": [
+                {
+                  "floor_id": "B003_F01",
+                  "building_id": "B003",
+                  "floor_type": "STANDARD",
+                  "floor_number": 1,
+                  "z_min": 0.0,
+                  "z_max": 4.2,
+                  "height_m": 4.2,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B003_F01_U0101",
+                      "floor_id": "B003_F01",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 0.0,
+                      "z_max": 4.2,
+                      "volume_m3": 29568.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B003_F01_U0102",
+                      "floor_id": "B003_F01",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 0.0,
+                      "z_max": 4.2,
+                      "volume_m3": 22176.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B003_F01_U0103",
+                      "floor_id": "B003_F01",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 0.0,
+                      "z_max": 4.2,
+                      "volume_m3": 22176.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                },
+                {
+                  "floor_id": "B003_F02",
+                  "building_id": "B003",
+                  "floor_type": "STANDARD",
+                  "floor_number": 2,
+                  "z_min": 4.2,
+                  "z_max": 8.4,
+                  "height_m": 4.2,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B003_F02_U0201",
+                      "floor_id": "B003_F02",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 4.2,
+                      "z_max": 8.4,
+                      "volume_m3": 29568.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B003_F02_U0202",
+                      "floor_id": "B003_F02",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 4.2,
+                      "z_max": 8.4,
+                      "volume_m3": 22176.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B003_F02_U0203",
+                      "floor_id": "B003_F02",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 4.2,
+                      "z_max": 8.4,
+                      "volume_m3": 22176.0,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                },
+                {
+                  "floor_id": "B003_F03",
+                  "building_id": "B003",
+                  "floor_type": "STANDARD",
+                  "floor_number": 3,
+                  "z_min": 8.4,
+                  "z_max": 12.6,
+                  "height_m": 4.199999999999999,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B003_F03_U0301",
+                      "floor_id": "B003_F03",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 8.4,
+                      "z_max": 12.6,
+                      "volume_m3": 29567.999999999996,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B003_F03_U0302",
+                      "floor_id": "B003_F03",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 8.4,
+                      "z_max": 12.6,
+                      "volume_m3": 22175.999999999996,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B003_F03_U0303",
+                      "floor_id": "B003_F03",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 8.4,
+                      "z_max": 12.6,
+                      "volume_m3": 22175.999999999996,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                },
+                {
+                  "floor_id": "B003_F04",
+                  "building_id": "B003",
+                  "floor_type": "STANDARD",
+                  "floor_number": 4,
+                  "z_min": 12.6,
+                  "z_max": 16.8,
+                  "height_m": 4.200000000000001,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B003_F04_U0401",
+                      "floor_id": "B003_F04",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 12.6,
+                      "z_max": 16.8,
+                      "volume_m3": 29568.000000000007,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B003_F04_U0402",
+                      "floor_id": "B003_F04",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 12.6,
+                      "z_max": 16.8,
+                      "volume_m3": 22176.000000000007,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B003_F04_U0403",
+                      "floor_id": "B003_F04",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 12.6,
+                      "z_max": 16.8,
+                      "volume_m3": 22176.000000000007,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                },
+                {
+                  "floor_id": "B003_F05",
+                  "building_id": "B003",
+                  "floor_type": "STANDARD",
+                  "floor_number": 5,
+                  "z_min": 16.8,
+                  "z_max": 21.0,
+                  "height_m": 4.199999999999999,
+                  "geometry_source": "floors.geojson",
+                  "3d_geometry_source": "floors_3d.obj",
+                  "property_units": [
+                    {
+                      "unit_id": "B003_F05_U0501",
+                      "floor_id": "B003_F05",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 7040.0,
+                      "z_min": 16.8,
+                      "z_max": 21.0,
+                      "volume_m3": 29567.999999999996,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B003_F05_U0502",
+                      "floor_id": "B003_F05",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 16.8,
+                      "z_max": 21.0,
+                      "volume_m3": 22175.999999999996,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    },
+                    {
+                      "unit_id": "B003_F05_U0503",
+                      "floor_id": "B003_F05",
+                      "building_id": "B003",
+                      "parcel_id": "P003",
+                      "unit_type": "PROPERTY_UNIT",
+                      "area_m2": 5280.0,
+                      "z_min": 16.8,
+                      "z_max": 21.0,
+                      "volume_m3": 22175.999999999996,
+                      "geometry_source": "property_units.geojson",
+                      "3d_geometry_source": "property_units_3d.obj",
+                      "ulpin": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "underground_assets": [
+            {
+              "asset_id": "UA002",
+              "parcel_id": "P003",
+              "asset_type": "ELECTRIC_DUCT",
+              "asset_name": "Underground Electrical Corridor",
+              "z_min": -6.0,
+              "z_max": -5.0,
+              "area_m2": 200.0,
+              "volume_m3": 200.0,
+              "geometry_source": "underground_assets.geojson",
+              "3d_geometry_source": "underground_assets_3d.obj"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "study_areas": 1,
+    "parcels": 3,
+    "buildings": 3,
+    "floors": 16,
+    "property_units": 45,
+    "underground_assets": 2
+  }
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "underground_assets",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32646" } },
+"features": [
+{ "type": "Feature", "properties": { "asset_id": "UA001", "asset_type": "WATER_PIPE", "asset_name": "Primary Water Supply", "parcel_id": "P001", "z_min": -4.0, "z_max": -3.0, "depth_min_m": 3.0, "depth_max_m": 4.0, "length_m": 80.0, "width_m": 2.0, "area_m2": 160.0, "volume_m3": 160.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 500155.0, 2940149.0 ], [ 500155.0, 2940151.0 ], [ 500075.0, 2940151.0 ], [ 500075.0, 2940149.0 ], [ 500155.0, 2940149.0 ] ] ] } },
+{ "type": "Feature", "properties": { "asset_id": "UA002", "asset_type": "ELECTRIC_DUCT", "asset_name": "Underground Electrical Corridor", "parcel_id": "P003", "z_min": -6.0, "z_max": -5.0, "depth_min_m": 5.0, "depth_max_m": 6.0, "length_m": 80.0, "width_m": 2.5, "area_m2": 200.0, "volume_m3": 200.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 500535.0, 2940148.75 ], [ 500535.0, 2940151.25 ], [ 500455.0, 2940151.25 ], [ 500455.0, 2940148.75 ], [ 500535.0, 2940148.75 ] ] ] } }
+]
+}

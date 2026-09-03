@@ -1,0 +1,1244 @@
+{
+  "metadata": {
+    "title": "Proposed 3D ULPIN Identity Registry",
+    "schema_version": "0.1",
+    "status": "PROTOTYPE",
+    "official_standard": false,
+    "crs": "EPSG:32646",
+    "admin_code": "AS01",
+    "city_code": "GHY"
+  },
+  "study_area": {
+    "entity_type": "STUDY_AREA",
+    "study_area_id": "AS01",
+    "admin_code": "AS01",
+    "city_code": "GHY",
+    "crs": "EPSG:32646",
+    "ulpin_schema": "AS01-GHY-Pxxx-Bxx-Fxx-Uxxxx",
+    "status": "PROPOSED_PROTOTYPE_SCHEMA"
+  },
+  "records": [
+    {
+      "ulpin": "AS01-GHY-P001-B001-F01-U0101",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F01_U0101",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F01",
+        "unit_id": "B001_F01_U0101"
+      },
+      "vertical_extent": {
+        "z_min": 0.0,
+        "z_max": 3.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 21120.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F01-U0102",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F01_U0102",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F01",
+        "unit_id": "B001_F01_U0102"
+      },
+      "vertical_extent": {
+        "z_min": 0.0,
+        "z_max": 3.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 15840.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F01-U0103",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F01_U0103",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F01",
+        "unit_id": "B001_F01_U0103"
+      },
+      "vertical_extent": {
+        "z_min": 0.0,
+        "z_max": 3.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 15840.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F02-U0201",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F02_U0201",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F02",
+        "unit_id": "B001_F02_U0201"
+      },
+      "vertical_extent": {
+        "z_min": 3.0,
+        "z_max": 6.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 21120.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F02-U0202",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F02_U0202",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F02",
+        "unit_id": "B001_F02_U0202"
+      },
+      "vertical_extent": {
+        "z_min": 3.0,
+        "z_max": 6.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 15840.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F02-U0203",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F02_U0203",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F02",
+        "unit_id": "B001_F02_U0203"
+      },
+      "vertical_extent": {
+        "z_min": 3.0,
+        "z_max": 6.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 15840.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F03-U0301",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F03_U0301",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F03",
+        "unit_id": "B001_F03_U0301"
+      },
+      "vertical_extent": {
+        "z_min": 6.0,
+        "z_max": 9.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 21120.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F03-U0302",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F03_U0302",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F03",
+        "unit_id": "B001_F03_U0302"
+      },
+      "vertical_extent": {
+        "z_min": 6.0,
+        "z_max": 9.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 15840.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F03-U0303",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F03_U0303",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F03",
+        "unit_id": "B001_F03_U0303"
+      },
+      "vertical_extent": {
+        "z_min": 6.0,
+        "z_max": 9.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 15840.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F04-U0401",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F04_U0401",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F04",
+        "unit_id": "B001_F04_U0401"
+      },
+      "vertical_extent": {
+        "z_min": 9.0,
+        "z_max": 12.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 21120.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F04-U0402",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F04_U0402",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F04",
+        "unit_id": "B001_F04_U0402"
+      },
+      "vertical_extent": {
+        "z_min": 9.0,
+        "z_max": 12.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 15840.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F04-U0403",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F04_U0403",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F04",
+        "unit_id": "B001_F04_U0403"
+      },
+      "vertical_extent": {
+        "z_min": 9.0,
+        "z_max": 12.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 15840.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F05-U0501",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F05_U0501",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F05",
+        "unit_id": "B001_F05_U0501"
+      },
+      "vertical_extent": {
+        "z_min": 12.0,
+        "z_max": 15.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 21120.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F05-U0502",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F05_U0502",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F05",
+        "unit_id": "B001_F05_U0502"
+      },
+      "vertical_extent": {
+        "z_min": 12.0,
+        "z_max": 15.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 15840.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-B001-F05-U0503",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B001_F05_U0503",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "building_id": "B001",
+        "floor_id": "B001_F05",
+        "unit_id": "B001_F05_U0503"
+      },
+      "vertical_extent": {
+        "z_min": 12.0,
+        "z_max": 15.0,
+        "height": 3.0
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 15840.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F01-U0101",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F01_U0101",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F01",
+        "unit_id": "B002_F01_U0101"
+      },
+      "vertical_extent": {
+        "z_min": 0.0,
+        "z_max": 3.6,
+        "height": 3.6
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 25344.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F01-U0102",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F01_U0102",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F01",
+        "unit_id": "B002_F01_U0102"
+      },
+      "vertical_extent": {
+        "z_min": 0.0,
+        "z_max": 3.6,
+        "height": 3.6
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 19008.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F01-U0103",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F01_U0103",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F01",
+        "unit_id": "B002_F01_U0103"
+      },
+      "vertical_extent": {
+        "z_min": 0.0,
+        "z_max": 3.6,
+        "height": 3.6
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 19008.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F02-U0201",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F02_U0201",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F02",
+        "unit_id": "B002_F02_U0201"
+      },
+      "vertical_extent": {
+        "z_min": 3.6,
+        "z_max": 7.2,
+        "height": 3.6
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 25344.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F02-U0202",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F02_U0202",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F02",
+        "unit_id": "B002_F02_U0202"
+      },
+      "vertical_extent": {
+        "z_min": 3.6,
+        "z_max": 7.2,
+        "height": 3.6
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 19008.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F02-U0203",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F02_U0203",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F02",
+        "unit_id": "B002_F02_U0203"
+      },
+      "vertical_extent": {
+        "z_min": 3.6,
+        "z_max": 7.2,
+        "height": 3.6
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 19008.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F03-U0301",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F03_U0301",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F03",
+        "unit_id": "B002_F03_U0301"
+      },
+      "vertical_extent": {
+        "z_min": 7.2,
+        "z_max": 10.8,
+        "height": 3.6000000000000005
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 25344.000000000004
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F03-U0302",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F03_U0302",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F03",
+        "unit_id": "B002_F03_U0302"
+      },
+      "vertical_extent": {
+        "z_min": 7.2,
+        "z_max": 10.8,
+        "height": 3.6000000000000005
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 19008.000000000004
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F03-U0303",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F03_U0303",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F03",
+        "unit_id": "B002_F03_U0303"
+      },
+      "vertical_extent": {
+        "z_min": 7.2,
+        "z_max": 10.8,
+        "height": 3.6000000000000005
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 19008.000000000004
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F04-U0401",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F04_U0401",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F04",
+        "unit_id": "B002_F04_U0401"
+      },
+      "vertical_extent": {
+        "z_min": 10.8,
+        "z_max": 14.4,
+        "height": 3.5999999999999996
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 25343.999999999996
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F04-U0402",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F04_U0402",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F04",
+        "unit_id": "B002_F04_U0402"
+      },
+      "vertical_extent": {
+        "z_min": 10.8,
+        "z_max": 14.4,
+        "height": 3.5999999999999996
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 19007.999999999996
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F04-U0403",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F04_U0403",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F04",
+        "unit_id": "B002_F04_U0403"
+      },
+      "vertical_extent": {
+        "z_min": 10.8,
+        "z_max": 14.4,
+        "height": 3.5999999999999996
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 19007.999999999996
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F05-U0501",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F05_U0501",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F05",
+        "unit_id": "B002_F05_U0501"
+      },
+      "vertical_extent": {
+        "z_min": 14.4,
+        "z_max": 18.0,
+        "height": 3.5999999999999996
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 25343.999999999996
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F05-U0502",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F05_U0502",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F05",
+        "unit_id": "B002_F05_U0502"
+      },
+      "vertical_extent": {
+        "z_min": 14.4,
+        "z_max": 18.0,
+        "height": 3.5999999999999996
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 19007.999999999996
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P002-B002-F05-U0503",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B002_F05_U0503",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P002",
+        "building_id": "B002",
+        "floor_id": "B002_F05",
+        "unit_id": "B002_F05_U0503"
+      },
+      "vertical_extent": {
+        "z_min": 14.4,
+        "z_max": 18.0,
+        "height": 3.5999999999999996
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 19007.999999999996
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F01-U0101",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F01_U0101",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F01",
+        "unit_id": "B003_F01_U0101"
+      },
+      "vertical_extent": {
+        "z_min": 0.0,
+        "z_max": 4.2,
+        "height": 4.2
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 29568.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F01-U0102",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F01_U0102",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F01",
+        "unit_id": "B003_F01_U0102"
+      },
+      "vertical_extent": {
+        "z_min": 0.0,
+        "z_max": 4.2,
+        "height": 4.2
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 22176.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F01-U0103",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F01_U0103",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F01",
+        "unit_id": "B003_F01_U0103"
+      },
+      "vertical_extent": {
+        "z_min": 0.0,
+        "z_max": 4.2,
+        "height": 4.2
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 22176.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F02-U0201",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F02_U0201",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F02",
+        "unit_id": "B003_F02_U0201"
+      },
+      "vertical_extent": {
+        "z_min": 4.2,
+        "z_max": 8.4,
+        "height": 4.2
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 29568.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F02-U0202",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F02_U0202",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F02",
+        "unit_id": "B003_F02_U0202"
+      },
+      "vertical_extent": {
+        "z_min": 4.2,
+        "z_max": 8.4,
+        "height": 4.2
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 22176.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F02-U0203",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F02_U0203",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F02",
+        "unit_id": "B003_F02_U0203"
+      },
+      "vertical_extent": {
+        "z_min": 4.2,
+        "z_max": 8.4,
+        "height": 4.2
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 22176.0
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F03-U0301",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F03_U0301",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F03",
+        "unit_id": "B003_F03_U0301"
+      },
+      "vertical_extent": {
+        "z_min": 8.4,
+        "z_max": 12.6,
+        "height": 4.199999999999999
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 29567.999999999996
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F03-U0302",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F03_U0302",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F03",
+        "unit_id": "B003_F03_U0302"
+      },
+      "vertical_extent": {
+        "z_min": 8.4,
+        "z_max": 12.6,
+        "height": 4.199999999999999
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 22175.999999999996
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F03-U0303",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F03_U0303",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F03",
+        "unit_id": "B003_F03_U0303"
+      },
+      "vertical_extent": {
+        "z_min": 8.4,
+        "z_max": 12.6,
+        "height": 4.199999999999999
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 22175.999999999996
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F04-U0401",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F04_U0401",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F04",
+        "unit_id": "B003_F04_U0401"
+      },
+      "vertical_extent": {
+        "z_min": 12.6,
+        "z_max": 16.8,
+        "height": 4.200000000000001
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 29568.000000000007
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F04-U0402",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F04_U0402",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F04",
+        "unit_id": "B003_F04_U0402"
+      },
+      "vertical_extent": {
+        "z_min": 12.6,
+        "z_max": 16.8,
+        "height": 4.200000000000001
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 22176.000000000007
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F04-U0403",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F04_U0403",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F04",
+        "unit_id": "B003_F04_U0403"
+      },
+      "vertical_extent": {
+        "z_min": 12.6,
+        "z_max": 16.8,
+        "height": 4.200000000000001
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 22176.000000000007
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F05-U0501",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F05_U0501",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F05",
+        "unit_id": "B003_F05_U0501"
+      },
+      "vertical_extent": {
+        "z_min": 16.8,
+        "z_max": 21.0,
+        "height": 4.199999999999999
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 7040.0,
+        "volume_m3": 29567.999999999996
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F05-U0502",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F05_U0502",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F05",
+        "unit_id": "B003_F05_U0502"
+      },
+      "vertical_extent": {
+        "z_min": 16.8,
+        "z_max": 21.0,
+        "height": 4.199999999999999
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 22175.999999999996
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-B003-F05-U0503",
+      "entity_type": "PROPERTY_UNIT",
+      "internal_source_id": "B003_F05_U0503",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "building_id": "B003",
+        "floor_id": "B003_F05",
+        "unit_id": "B003_F05_U0503"
+      },
+      "vertical_extent": {
+        "z_min": 16.8,
+        "z_max": 21.0,
+        "height": 4.199999999999999
+      },
+      "spatial": {
+        "crs": "EPSG:32646",
+        "area_m2": 5280.0,
+        "volume_m3": 22175.999999999996
+      },
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P001-UA001",
+      "entity_type": "UNDERGROUND_ASSET",
+      "internal_source_id": "UA001",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P001",
+        "asset_id": "UA001"
+      },
+      "vertical_extent": {
+        "z_min": -4.0,
+        "z_max": -3.0,
+        "depth_range_m": [
+          4.0,
+          3.0
+        ]
+      },
+      "spatial": {
+        "crs": "EPSG:32646"
+      },
+      "asset_type": "WATER_PIPE",
+      "identity_status": "PROPOSED_3D_ULPIN"
+    },
+    {
+      "ulpin": "AS01-GHY-P003-UA002",
+      "entity_type": "UNDERGROUND_ASSET",
+      "internal_source_id": "UA002",
+      "study_area": {
+        "admin_code": "AS01",
+        "city_code": "GHY"
+      },
+      "hierarchy": {
+        "parcel_id": "P003",
+        "asset_id": "UA002"
+      },
+      "vertical_extent": {
+        "z_min": -6.0,
+        "z_max": -5.0,
+        "depth_range_m": [
+          6.0,
+          5.0
+        ]
+      },
+      "spatial": {
+        "crs": "EPSG:32646"
+      },
+      "asset_type": "ELECTRIC_DUCT",
+      "identity_status": "PROPOSED_3D_ULPIN"
+    }
+  ]
+}

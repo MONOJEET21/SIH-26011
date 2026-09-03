@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "analysis": "Bhunaksha Dag 546 ↔ OpenStreetMap building spatial matching",
+    "parcel_source": "Assam Bhunaksha cadastral geometry",
+    "building_source": "OpenStreetMap / Overpass",
+    "crs": "EPSG:32646",
+    "dag": "546",
+    "ulpin": "8456A2E5NVP0H0",
+    "parcel_geometry_type": "MultiPolygon",
+    "parcel_geometry_area_m2": 2592.687,
+    "osm_building_count": 13,
+    "strong_match_threshold_percent": 50.0,
+    "partial_match_threshold_percent": 5.0,
+    "nearby_distance_threshold_m": 100.0
+  },
+  "summary": {
+    "total_buildings": 13,
+    "strong_matches": 0,
+    "partial_matches": 0,
+    "nearby_buildings": 4,
+    "no_matches": 9,
+    "invalid_geometries": 0
+  },
+  "results": [
+    {
+      "building_id": "way/517478725",
+      "building_area_m2": 1901.836,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 246.699,
+      "classification": "no_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/517478725",
+        "@id": "way/517478725",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/738284704",
+      "building_area_m2": 517.056,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 83.215,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/738284704",
+        "@id": "way/738284704",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/806033506",
+      "building_area_m2": 177.124,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 56.378,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/806033506",
+        "@id": "way/806033506",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/806033521",
+      "building_area_m2": 461.682,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 107.527,
+      "classification": "no_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/806033521",
+        "@id": "way/806033521",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/806033560",
+      "building_area_m2": 69.608,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 200.018,
+      "classification": "no_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/806033560",
+        "@id": "way/806033560",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/806033570",
+      "building_area_m2": 306.769,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 183.217,
+      "classification": "no_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/806033570",
+        "@id": "way/806033570",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/806033571",
+      "building_area_m2": 171.978,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 198.184,
+      "classification": "no_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/806033571",
+        "@id": "way/806033571",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/806033572",
+      "building_area_m2": 160.283,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 212.01,
+      "classification": "no_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/806033572",
+        "@id": "way/806033572",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/806033589",
+      "building_area_m2": 223.907,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 40.713,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/806033589",
+        "@id": "way/806033589",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/806033597",
+      "building_area_m2": 266.661,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 143.389,
+      "classification": "no_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/806033597",
+        "@id": "way/806033597",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/806033602",
+      "building_area_m2": 440.056,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 222.767,
+      "classification": "no_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/806033602",
+        "@id": "way/806033602",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/1334976147",
+      "building_area_m2": 787.349,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 239.822,
+      "classification": "no_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/1334976147",
+        "@id": "way/1334976147",
+        "amenity": NaN,
+        "building": "apartments",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/1433579601",
+      "building_area_m2": 29.149,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 79.304,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/1433579601",
+        "@id": "way/1433579601",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "burger;regional;chicken",
+        "name": "J14 Hub"
+      }
+    }
+  ],
+  "strong_matches": [],
+  "partial_matches": [],
+  "nearby_buildings": [
+    {
+      "building_id": "way/738284704",
+      "building_area_m2": 517.056,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 83.215,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/738284704",
+        "@id": "way/738284704",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/806033506",
+      "building_area_m2": 177.124,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 56.378,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/806033506",
+        "@id": "way/806033506",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/806033589",
+      "building_area_m2": 223.907,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 40.713,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/806033589",
+        "@id": "way/806033589",
+        "amenity": NaN,
+        "building": "yes",
+        "cuisine": NaN,
+        "name": NaN
+      }
+    },
+    {
+      "building_id": "way/1433579601",
+      "building_area_m2": 29.149,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 79.304,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "osm_properties": {
+        "id": "way/1433579601",
+        "@id": "way/1433579601",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "burger;regional;chicken",
+        "name": "J14 Hub"
+      }
+    }
+  ]
+}

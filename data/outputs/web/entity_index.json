@@ -1,0 +1,561 @@
+{
+  "entity_count": 69,
+  "entities": [
+    {
+      "entity_type": "PARCEL",
+      "entity_id": "P001",
+      "parent_id": null,
+      "display_name": "P001"
+    },
+    {
+      "entity_type": "PARCEL",
+      "entity_id": "P002",
+      "parent_id": null,
+      "display_name": "P002"
+    },
+    {
+      "entity_type": "PARCEL",
+      "entity_id": "P003",
+      "parent_id": null,
+      "display_name": "P003"
+    },
+    {
+      "entity_type": "BUILDING",
+      "entity_id": "B001",
+      "parent_id": "P001",
+      "display_name": "B001"
+    },
+    {
+      "entity_type": "BUILDING",
+      "entity_id": "B002",
+      "parent_id": "P002",
+      "display_name": "B002"
+    },
+    {
+      "entity_type": "BUILDING",
+      "entity_id": "B003",
+      "parent_id": "P003",
+      "display_name": "B003"
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B001_F01",
+      "parent_id": "B001",
+      "display_name": "B001_F01",
+      "floor_type": "STANDARD",
+      "z_min": 0.0,
+      "z_max": 3.0
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B001_F02",
+      "parent_id": "B001",
+      "display_name": "B001_F02",
+      "floor_type": "STANDARD",
+      "z_min": 3.0,
+      "z_max": 6.0
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B001_F03",
+      "parent_id": "B001",
+      "display_name": "B001_F03",
+      "floor_type": "STANDARD",
+      "z_min": 6.0,
+      "z_max": 9.0
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B001_F04",
+      "parent_id": "B001",
+      "display_name": "B001_F04",
+      "floor_type": "STANDARD",
+      "z_min": 9.0,
+      "z_max": 12.0
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B001_F05",
+      "parent_id": "B001",
+      "display_name": "B001_F05",
+      "floor_type": "STANDARD",
+      "z_min": 12.0,
+      "z_max": 15.0
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B002_F01",
+      "parent_id": "B002",
+      "display_name": "B002_F01",
+      "floor_type": "STANDARD",
+      "z_min": 0.0,
+      "z_max": 3.6
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B002_F02",
+      "parent_id": "B002",
+      "display_name": "B002_F02",
+      "floor_type": "STANDARD",
+      "z_min": 3.6,
+      "z_max": 7.2
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B002_F03",
+      "parent_id": "B002",
+      "display_name": "B002_F03",
+      "floor_type": "STANDARD",
+      "z_min": 7.2,
+      "z_max": 10.8
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B002_F04",
+      "parent_id": "B002",
+      "display_name": "B002_F04",
+      "floor_type": "STANDARD",
+      "z_min": 10.8,
+      "z_max": 14.4
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B002_F05",
+      "parent_id": "B002",
+      "display_name": "B002_F05",
+      "floor_type": "STANDARD",
+      "z_min": 14.4,
+      "z_max": 18.0
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B003_F01",
+      "parent_id": "B003",
+      "display_name": "B003_F01",
+      "floor_type": "STANDARD",
+      "z_min": 0.0,
+      "z_max": 4.2
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B003_F02",
+      "parent_id": "B003",
+      "display_name": "B003_F02",
+      "floor_type": "STANDARD",
+      "z_min": 4.2,
+      "z_max": 8.4
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B003_F03",
+      "parent_id": "B003",
+      "display_name": "B003_F03",
+      "floor_type": "STANDARD",
+      "z_min": 8.4,
+      "z_max": 12.6
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B003_F04",
+      "parent_id": "B003",
+      "display_name": "B003_F04",
+      "floor_type": "STANDARD",
+      "z_min": 12.6,
+      "z_max": 16.8
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B003_F05",
+      "parent_id": "B003",
+      "display_name": "B003_F05",
+      "floor_type": "STANDARD",
+      "z_min": 16.8,
+      "z_max": 21.0
+    },
+    {
+      "entity_type": "FLOOR",
+      "entity_id": "B002_B01",
+      "parent_id": "B002",
+      "display_name": "B002_B01",
+      "floor_type": "BASEMENT",
+      "z_min": -3.0,
+      "z_max": 0.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F01_U0101",
+      "parent_id": "B001_F01",
+      "building_id": "B001",
+      "z_min": 0.0,
+      "z_max": 3.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F01_U0102",
+      "parent_id": "B001_F01",
+      "building_id": "B001",
+      "z_min": 0.0,
+      "z_max": 3.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F01_U0103",
+      "parent_id": "B001_F01",
+      "building_id": "B001",
+      "z_min": 0.0,
+      "z_max": 3.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F02_U0201",
+      "parent_id": "B001_F02",
+      "building_id": "B001",
+      "z_min": 3.0,
+      "z_max": 6.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F02_U0202",
+      "parent_id": "B001_F02",
+      "building_id": "B001",
+      "z_min": 3.0,
+      "z_max": 6.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F02_U0203",
+      "parent_id": "B001_F02",
+      "building_id": "B001",
+      "z_min": 3.0,
+      "z_max": 6.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F03_U0301",
+      "parent_id": "B001_F03",
+      "building_id": "B001",
+      "z_min": 6.0,
+      "z_max": 9.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F03_U0302",
+      "parent_id": "B001_F03",
+      "building_id": "B001",
+      "z_min": 6.0,
+      "z_max": 9.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F03_U0303",
+      "parent_id": "B001_F03",
+      "building_id": "B001",
+      "z_min": 6.0,
+      "z_max": 9.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F04_U0401",
+      "parent_id": "B001_F04",
+      "building_id": "B001",
+      "z_min": 9.0,
+      "z_max": 12.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F04_U0402",
+      "parent_id": "B001_F04",
+      "building_id": "B001",
+      "z_min": 9.0,
+      "z_max": 12.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F04_U0403",
+      "parent_id": "B001_F04",
+      "building_id": "B001",
+      "z_min": 9.0,
+      "z_max": 12.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F05_U0501",
+      "parent_id": "B001_F05",
+      "building_id": "B001",
+      "z_min": 12.0,
+      "z_max": 15.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F05_U0502",
+      "parent_id": "B001_F05",
+      "building_id": "B001",
+      "z_min": 12.0,
+      "z_max": 15.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B001_F05_U0503",
+      "parent_id": "B001_F05",
+      "building_id": "B001",
+      "z_min": 12.0,
+      "z_max": 15.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F01_U0101",
+      "parent_id": "B002_F01",
+      "building_id": "B002",
+      "z_min": 0.0,
+      "z_max": 3.6
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F01_U0102",
+      "parent_id": "B002_F01",
+      "building_id": "B002",
+      "z_min": 0.0,
+      "z_max": 3.6
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F01_U0103",
+      "parent_id": "B002_F01",
+      "building_id": "B002",
+      "z_min": 0.0,
+      "z_max": 3.6
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F02_U0201",
+      "parent_id": "B002_F02",
+      "building_id": "B002",
+      "z_min": 3.6,
+      "z_max": 7.2
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F02_U0202",
+      "parent_id": "B002_F02",
+      "building_id": "B002",
+      "z_min": 3.6,
+      "z_max": 7.2
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F02_U0203",
+      "parent_id": "B002_F02",
+      "building_id": "B002",
+      "z_min": 3.6,
+      "z_max": 7.2
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F03_U0301",
+      "parent_id": "B002_F03",
+      "building_id": "B002",
+      "z_min": 7.2,
+      "z_max": 10.8
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F03_U0302",
+      "parent_id": "B002_F03",
+      "building_id": "B002",
+      "z_min": 7.2,
+      "z_max": 10.8
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F03_U0303",
+      "parent_id": "B002_F03",
+      "building_id": "B002",
+      "z_min": 7.2,
+      "z_max": 10.8
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F04_U0401",
+      "parent_id": "B002_F04",
+      "building_id": "B002",
+      "z_min": 10.8,
+      "z_max": 14.4
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F04_U0402",
+      "parent_id": "B002_F04",
+      "building_id": "B002",
+      "z_min": 10.8,
+      "z_max": 14.4
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F04_U0403",
+      "parent_id": "B002_F04",
+      "building_id": "B002",
+      "z_min": 10.8,
+      "z_max": 14.4
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F05_U0501",
+      "parent_id": "B002_F05",
+      "building_id": "B002",
+      "z_min": 14.4,
+      "z_max": 18.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F05_U0502",
+      "parent_id": "B002_F05",
+      "building_id": "B002",
+      "z_min": 14.4,
+      "z_max": 18.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B002_F05_U0503",
+      "parent_id": "B002_F05",
+      "building_id": "B002",
+      "z_min": 14.4,
+      "z_max": 18.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F01_U0101",
+      "parent_id": "B003_F01",
+      "building_id": "B003",
+      "z_min": 0.0,
+      "z_max": 4.2
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F01_U0102",
+      "parent_id": "B003_F01",
+      "building_id": "B003",
+      "z_min": 0.0,
+      "z_max": 4.2
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F01_U0103",
+      "parent_id": "B003_F01",
+      "building_id": "B003",
+      "z_min": 0.0,
+      "z_max": 4.2
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F02_U0201",
+      "parent_id": "B003_F02",
+      "building_id": "B003",
+      "z_min": 4.2,
+      "z_max": 8.4
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F02_U0202",
+      "parent_id": "B003_F02",
+      "building_id": "B003",
+      "z_min": 4.2,
+      "z_max": 8.4
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F02_U0203",
+      "parent_id": "B003_F02",
+      "building_id": "B003",
+      "z_min": 4.2,
+      "z_max": 8.4
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F03_U0301",
+      "parent_id": "B003_F03",
+      "building_id": "B003",
+      "z_min": 8.4,
+      "z_max": 12.6
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F03_U0302",
+      "parent_id": "B003_F03",
+      "building_id": "B003",
+      "z_min": 8.4,
+      "z_max": 12.6
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F03_U0303",
+      "parent_id": "B003_F03",
+      "building_id": "B003",
+      "z_min": 8.4,
+      "z_max": 12.6
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F04_U0401",
+      "parent_id": "B003_F04",
+      "building_id": "B003",
+      "z_min": 12.6,
+      "z_max": 16.8
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F04_U0402",
+      "parent_id": "B003_F04",
+      "building_id": "B003",
+      "z_min": 12.6,
+      "z_max": 16.8
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F04_U0403",
+      "parent_id": "B003_F04",
+      "building_id": "B003",
+      "z_min": 12.6,
+      "z_max": 16.8
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F05_U0501",
+      "parent_id": "B003_F05",
+      "building_id": "B003",
+      "z_min": 16.8,
+      "z_max": 21.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F05_U0502",
+      "parent_id": "B003_F05",
+      "building_id": "B003",
+      "z_min": 16.8,
+      "z_max": 21.0
+    },
+    {
+      "entity_type": "PROPERTY_UNIT",
+      "entity_id": "B003_F05_U0503",
+      "parent_id": "B003_F05",
+      "building_id": "B003",
+      "z_min": 16.8,
+      "z_max": 21.0
+    },
+    {
+      "entity_type": "UNDERGROUND_ASSET",
+      "entity_id": "UA001",
+      "parent_id": "P001",
+      "asset_type": "WATER_PIPE",
+      "z_min": -4.0,
+      "z_max": -3.0
+    },
+    {
+      "entity_type": "UNDERGROUND_ASSET",
+      "entity_id": "UA002",
+      "parent_id": "P003",
+      "asset_type": "ELECTRIC_DUCT",
+      "z_min": -6.0,
+      "z_max": -5.0
+    }
+  ]
+}

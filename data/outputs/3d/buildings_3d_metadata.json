@@ -1,0 +1,66 @@
+{
+  "crs": "EPSG:32646",
+  "local_origin": {
+    "x": 500000.0,
+    "y": 2940000.0,
+    "z": 0.0
+  },
+  "source_file": "D:\\SOLID IDEA\\3d-ulpin\\data\\synthetic\\study_area\\buildings.geojson",
+  "building_count": 3,
+  "buildings": [
+    {
+      "building_id": "B001",
+      "parcel_id": "P001",
+      "crs": "EPSG:32646",
+      "origin_x": 500000.0,
+      "origin_y": 2940000.0,
+      "z_min": 0.0,
+      "z_max": 15.0,
+      "height_m": 15.0,
+      "footprint_area_m2": 17600.0,
+      "expected_volume_m3": 264000.0,
+      "mesh_volume_m3": 264000.0,
+      "volume_error_m3": 0.0,
+      "vertex_count": 8,
+      "face_count": 12,
+      "watertight": true,
+      "mesh_file": "B001.obj"
+    },
+    {
+      "building_id": "B002",
+      "parcel_id": "P002",
+      "crs": "EPSG:32646",
+      "origin_x": 500000.0,
+      "origin_y": 2940000.0,
+      "z_min": 0.0,
+      "z_max": 18.0,
+      "height_m": 18.0,
+      "footprint_area_m2": 17600.0,
+      "expected_volume_m3": 316800.0,
+      "mesh_volume_m3": 316800.0,
+      "volume_error_m3": 0.0,
+      "vertex_count": 8,
+      "face_count": 12,
+      "watertight": true,
+      "mesh_file": "B002.obj"
+    },
+    {
+      "building_id": "B003",
+      "parcel_id": "P003",
+      "crs": "EPSG:32646",
+      "origin_x": 500000.0,
+      "origin_y": 2940000.0,
+      "z_min": 0.0,
+      "z_max": 21.0,
+      "height_m": 21.0,
+      "footprint_area_m2": 17600.0,
+      "expected_volume_m3": 369600.0,
+      "mesh_volume_m3": 369600.0,
+      "volume_error_m3": 0.0,
+      "vertex_count": 8,
+      "face_count": 12,
+      "watertight": true,
+      "mesh_file": "B003.obj"
+    }
+  ]
+}

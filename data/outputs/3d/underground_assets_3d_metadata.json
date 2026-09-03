@@ -1,0 +1,61 @@
+{
+  "dataset": "Synthetic underground assets",
+  "crs": "EPSG:32646",
+  "local_origin": {
+    "x": 500000.0,
+    "y": 2940000.0,
+    "z": 0.0
+  },
+  "asset_count": 2,
+  "component_count": 2,
+  "combined_volume_m3": 360.0,
+  "volume_error_m3": 0.0,
+  "assets": [
+    {
+      "asset_id": "UA001",
+      "asset_type": "WATER_PIPE",
+      "asset_name": "Primary Water Supply",
+      "parcel_id": "P001",
+      "crs": "EPSG:32646",
+      "local_origin": {
+        "x": 500000.0,
+        "y": 2940000.0,
+        "z": 0.0
+      },
+      "z_min": -4.0,
+      "z_max": -3.0,
+      "depth_min_m": 3.0,
+      "depth_max_m": 4.0,
+      "length_m": 80.0,
+      "width_m": 2.0,
+      "area_m2": 160.0,
+      "volume_m3": 160.0,
+      "watertight": true,
+      "vertex_count": 8,
+      "face_count": 12
+    },
+    {
+      "asset_id": "UA002",
+      "asset_type": "ELECTRIC_DUCT",
+      "asset_name": "Underground Electrical Corridor",
+      "parcel_id": "P003",
+      "crs": "EPSG:32646",
+      "local_origin": {
+        "x": 500000.0,
+        "y": 2940000.0,
+        "z": 0.0
+      },
+      "z_min": -6.0,
+      "z_max": -5.0,
+      "depth_min_m": 5.0,
+      "depth_max_m": 6.0,
+      "length_m": 80.0,
+      "width_m": 2.5,
+      "area_m2": 200.0,
+      "volume_m3": 200.0,
+      "watertight": true,
+      "vertex_count": 8,
+      "face_count": 12
+    }
+  ]
+}

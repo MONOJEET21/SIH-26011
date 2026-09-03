@@ -1,0 +1,1519 @@
+{
+  "metadata": {
+    "analysis": "Bhunaksha Dag 546 ↔ Overture Maps Buildings",
+    "parcel_source": "Assam Bhunaksha",
+    "building_source": "Overture Maps Buildings",
+    "source_type": "real_geospatial_data",
+    "crs": "EPSG:32646",
+    "dag": "546",
+    "ulpin": "8456A2E5NVP0H0",
+    "parcel_geometry_type": "MultiPolygon",
+    "parcel_area_m2": 2592.687,
+    "strong_threshold_percent": 50.0,
+    "partial_threshold_percent": 5.0,
+    "nearby_threshold_m": 100.0,
+    "legal_status": "Spatial correspondence only; not proof of ownership."
+  },
+  "summary": {
+    "total_buildings": 24,
+    "strong_matches": 4,
+    "partial_matches": 0,
+    "nearby_buildings": 20,
+    "no_matches": 0
+  },
+  "results": [
+    {
+      "building_id": "7f2c7c6f-e4b9-4890-9d87-dd9ca13abf25",
+      "building_area_m2": 150.15,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 35.884,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Microsoft ML Buildings",
+            "license": "ODbL-1.0",
+            "record_id": null,
+            "update_time": "2018-12-09T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "microsoft",
+            "resource": "ml_buildings",
+            "version": "2025-02-25"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 3
+      }
+    },
+    {
+      "building_id": "15f91a36-9b2f-4098-a71e-972a71c16b3c",
+      "building_area_m2": 53.096,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 20.176,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+JXW2",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7047,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "419aafb6-39bd-4860-ab12-dd86dd428b80",
+      "building_area_m2": 195.431,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 19.751,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+HWW3",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8991,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "014f6446-8ead-4057-b261-bdbeb5132c45",
+      "building_area_m2": 211.836,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 9.394,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+HXF9",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.782,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "b3f73f88-95a4-48f9-b901-670daba74778",
+      "building_area_m2": 100.08,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 0.622,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+GXXC",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.675,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "6e5b2a4a-e576-4a1f-8475-62e8cacdfa68",
+      "building_area_m2": 34.816,
+      "intersection_area_m2": 34.816,
+      "percent_inside_parcel": 100.0,
+      "centroid_inside_parcel": true,
+      "distance_to_parcel_m": 0.0,
+      "classification": "strong_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+FXXX",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7383,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "de526f25-5ada-46b3-a93b-b8ab246be044",
+      "building_area_m2": 97.977,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 36.961,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+9VH5",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7472,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "64ab2493-5dfc-4452-b362-7b10a531f251",
+      "building_area_m2": 67.53,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 36.233,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+8WPX",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7442,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "4478c560-9d73-40be-a783-70ae9ce38f74",
+      "building_area_m2": 72.911,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 36.142,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+8X6Q",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7811,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "c95931c6-fc2a-4d60-936f-2ae0485c8ff8",
+      "building_area_m2": 72.256,
+      "intersection_area_m2": 68.776,
+      "percent_inside_parcel": 95.183,
+      "centroid_inside_parcel": true,
+      "distance_to_parcel_m": 0.0,
+      "classification": "strong_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+G27J",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7474,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "a69f05cb-c145-43ec-8f99-2fad820d51ef",
+      "building_area_m2": 75.002,
+      "intersection_area_m2": 75.002,
+      "percent_inside_parcel": 100.0,
+      "centroid_inside_parcel": true,
+      "distance_to_parcel_m": 0.0,
+      "classification": "strong_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+G3RJ",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8022,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "89da3b51-d4b9-47d2-84c7-f8f61b86a5e2",
+      "building_area_m2": 254.325,
+      "intersection_area_m2": 229.961,
+      "percent_inside_parcel": 90.42,
+      "centroid_inside_parcel": true,
+      "distance_to_parcel_m": 0.0,
+      "classification": "strong_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+G6RF",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7804,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "a7049b97-0fad-4e0a-93ae-03ffe9241de2",
+      "building_area_m2": 52.949,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 21.468,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+9622",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7749,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "24365978-5783-4f90-8b8d-149cdafc6757",
+      "building_area_m2": 52.667,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 28.34,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+86XP",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7232,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "46db7d67-46f2-4027-a6ea-08e6af722898",
+      "building_area_m2": 204.174,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 36.507,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+98GW",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7734,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "ef1fe9a0-e2ac-4e2e-aab7-79b6ab3cb317",
+      "building_area_m2": 199.644,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 26.259,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+F9JQ",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8537,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "c1a26f88-086a-4a86-adce-d51abe25f912",
+      "building_area_m2": 80.233,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 9.023,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+H8J9",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7658,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "12171181-dcd1-42ed-9084-4bb93fb9e66d",
+      "building_area_m2": 152.466,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 30.536,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+Q6MC",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8462,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "946d383d-ca82-4968-b3c7-678b10094c23",
+      "building_area_m2": 811.322,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 9.637,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+M79J",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.9278,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "afc2c141-43c3-4d26-abbc-ffbc062495dd",
+      "building_area_m2": 22.096,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 1.977,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+H2XP",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7078,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "8375ce7a-f26c-4263-85b5-79a2d2875d7e",
+      "building_area_m2": 73.942,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 17.163,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+M27M",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8232,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "d8b14b91-b8a3-4efe-8947-deeb3f4be454",
+      "building_area_m2": 103.816,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 27.042,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Microsoft ML Buildings",
+            "license": "ODbL-1.0",
+            "record_id": null,
+            "update_time": "2018-12-09T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "microsoft",
+            "resource": "ml_buildings",
+            "version": "2025-02-25"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 3
+      }
+    },
+    {
+      "building_id": "855b8121-dec1-4303-b03c-dd7f242d50ed",
+      "building_area_m2": 99.23,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 16.516,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+P33R",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8964,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "7903c22f-c69e-4d1b-9695-50d92a47c84c",
+      "building_area_m2": 253.998,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 53.566,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+78X7",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8373,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    }
+  ],
+  "strong_matches": [
+    {
+      "building_id": "6e5b2a4a-e576-4a1f-8475-62e8cacdfa68",
+      "building_area_m2": 34.816,
+      "intersection_area_m2": 34.816,
+      "percent_inside_parcel": 100.0,
+      "centroid_inside_parcel": true,
+      "distance_to_parcel_m": 0.0,
+      "classification": "strong_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+FXXX",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7383,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "c95931c6-fc2a-4d60-936f-2ae0485c8ff8",
+      "building_area_m2": 72.256,
+      "intersection_area_m2": 68.776,
+      "percent_inside_parcel": 95.183,
+      "centroid_inside_parcel": true,
+      "distance_to_parcel_m": 0.0,
+      "classification": "strong_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+G27J",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7474,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "a69f05cb-c145-43ec-8f99-2fad820d51ef",
+      "building_area_m2": 75.002,
+      "intersection_area_m2": 75.002,
+      "percent_inside_parcel": 100.0,
+      "centroid_inside_parcel": true,
+      "distance_to_parcel_m": 0.0,
+      "classification": "strong_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+G3RJ",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8022,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "89da3b51-d4b9-47d2-84c7-f8f61b86a5e2",
+      "building_area_m2": 254.325,
+      "intersection_area_m2": 229.961,
+      "percent_inside_parcel": 90.42,
+      "centroid_inside_parcel": true,
+      "distance_to_parcel_m": 0.0,
+      "classification": "strong_match",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+G6RF",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7804,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    }
+  ],
+  "partial_matches": [],
+  "nearby_buildings": [
+    {
+      "building_id": "7f2c7c6f-e4b9-4890-9d87-dd9ca13abf25",
+      "building_area_m2": 150.15,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 35.884,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Microsoft ML Buildings",
+            "license": "ODbL-1.0",
+            "record_id": null,
+            "update_time": "2018-12-09T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "microsoft",
+            "resource": "ml_buildings",
+            "version": "2025-02-25"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 3
+      }
+    },
+    {
+      "building_id": "15f91a36-9b2f-4098-a71e-972a71c16b3c",
+      "building_area_m2": 53.096,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 20.176,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+JXW2",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7047,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "419aafb6-39bd-4860-ab12-dd86dd428b80",
+      "building_area_m2": 195.431,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 19.751,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+HWW3",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8991,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "014f6446-8ead-4057-b261-bdbeb5132c45",
+      "building_area_m2": 211.836,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 9.394,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+HXF9",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.782,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "b3f73f88-95a4-48f9-b901-670daba74778",
+      "building_area_m2": 100.08,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 0.622,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+GXXC",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.675,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "de526f25-5ada-46b3-a93b-b8ab246be044",
+      "building_area_m2": 97.977,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 36.961,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+9VH5",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7472,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "64ab2493-5dfc-4452-b362-7b10a531f251",
+      "building_area_m2": 67.53,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 36.233,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+8WPX",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7442,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "4478c560-9d73-40be-a783-70ae9ce38f74",
+      "building_area_m2": 72.911,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 36.142,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q88+8X6Q",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7811,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "a7049b97-0fad-4e0a-93ae-03ffe9241de2",
+      "building_area_m2": 52.949,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 21.468,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+9622",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7749,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "24365978-5783-4f90-8b8d-149cdafc6757",
+      "building_area_m2": 52.667,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 28.34,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+86XP",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7232,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "46db7d67-46f2-4027-a6ea-08e6af722898",
+      "building_area_m2": 204.174,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 36.507,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+98GW",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7734,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "ef1fe9a0-e2ac-4e2e-aab7-79b6ab3cb317",
+      "building_area_m2": 199.644,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 26.259,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+F9JQ",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8537,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "c1a26f88-086a-4a86-adce-d51abe25f912",
+      "building_area_m2": 80.233,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 9.023,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+H8J9",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7658,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "12171181-dcd1-42ed-9084-4bb93fb9e66d",
+      "building_area_m2": 152.466,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 30.536,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+Q6MC",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8462,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "946d383d-ca82-4968-b3c7-678b10094c23",
+      "building_area_m2": 811.322,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 9.637,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+M79J",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.9278,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "afc2c141-43c3-4d26-abbc-ffbc062495dd",
+      "building_area_m2": 22.096,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 1.977,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+H2XP",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.7078,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "8375ce7a-f26c-4263-85b5-79a2d2875d7e",
+      "building_area_m2": 73.942,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 17.163,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+M27M",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8232,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "d8b14b91-b8a3-4efe-8947-deeb3f4be454",
+      "building_area_m2": 103.816,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 27.042,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Microsoft ML Buildings",
+            "license": "ODbL-1.0",
+            "record_id": null,
+            "update_time": "2018-12-09T00:00:00.000Z",
+            "confidence": null,
+            "between": null,
+            "provider": "microsoft",
+            "resource": "ml_buildings",
+            "version": "2025-02-25"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 3
+      }
+    },
+    {
+      "building_id": "855b8121-dec1-4303-b03c-dd7f242d50ed",
+      "building_area_m2": 99.23,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 16.516,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+P33R",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8964,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    },
+    {
+      "building_id": "7903c22f-c69e-4d1b-9695-50d92a47c84c",
+      "building_area_m2": 253.998,
+      "intersection_area_m2": 0.0,
+      "percent_inside_parcel": 0.0,
+      "centroid_inside_parcel": false,
+      "distance_to_parcel_m": 53.566,
+      "classification": "nearby",
+      "parcel_id": "DAG_546",
+      "ulpin": "8456A2E5NVP0H0",
+      "source": "Overture Maps Buildings",
+      "source_metadata": {
+        "sources": [
+          {
+            "property": "",
+            "dataset": "Google Open Buildings",
+            "license": null,
+            "record_id": "7MRH5Q89+78X7",
+            "update_time": "2023-05-01T00:00:00.000Z",
+            "confidence": 0.8373,
+            "between": null,
+            "provider": "google",
+            "resource": "open_buildings",
+            "version": "2024-04-16"
+          }
+        ],
+        "is_underground": false,
+        "has_parts": false,
+        "version": 1
+      }
+    }
+  ]
+}

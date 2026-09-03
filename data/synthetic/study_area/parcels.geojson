@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "parcels",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32646" } },
+"features": [
+{ "type": "Feature", "properties": { "parcel_id": "P001", "study_area_id": "AS01", "parcel_type": "RESIDENTIAL" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 500030.0, 2940030.0 ], [ 500200.0, 2940030.0 ], [ 500200.0, 2940270.0 ], [ 500030.0, 2940270.0 ], [ 500030.0, 2940030.0 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P002", "study_area_id": "AS01", "parcel_type": "RESIDENTIAL" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 500220.0, 2940030.0 ], [ 500390.0, 2940030.0 ], [ 500390.0, 2940270.0 ], [ 500220.0, 2940270.0 ], [ 500220.0, 2940030.0 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P003", "study_area_id": "AS01", "parcel_type": "RESIDENTIAL" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 500410.0, 2940030.0 ], [ 500580.0, 2940030.0 ], [ 500580.0, 2940270.0 ], [ 500410.0, 2940270.0 ], [ 500410.0, 2940030.0 ] ] ] } }
+]
+}

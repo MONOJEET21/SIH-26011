@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "parcels",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "parcel_id": "P001", "study_area_id": "AS01", "parcel_type": "RESIDENTIAL" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 93.000301264575072, 26.581013419665027 ], [ 93.002008430499956, 26.581013405821274 ], [ 93.002008468305334, 26.583180396616651 ], [ 93.000301270245885, 26.583180410461704 ], [ 93.000301264575072, 26.581013419665027 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P002", "study_area_id": "AS01", "parcel_type": "RESIDENTIAL" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 93.002209273549823, 26.581013402847166 ], [ 93.003916439472164, 26.581013366131138 ], [ 93.003916513192678, 26.583180356922782 ], [ 93.002209315135758, 26.583180393642269 ], [ 93.002209273549823, 26.581013402847166 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P003", "study_area_id": "AS01", "parcel_type": "RESIDENTIAL" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 93.004117282521619, 26.581013360466176 ], [ 93.005824448439171, 26.581013300877867 ], [ 93.005824558074792, 26.583180291663371 ], [ 93.004117360022676, 26.583180351257283 ], [ 93.004117282521619, 26.581013360466176 ] ] ] } }
+]
+}

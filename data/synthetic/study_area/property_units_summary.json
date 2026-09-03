@@ -1,0 +1,14 @@
+{
+  "dataset": "Synthetic property units",
+  "crs": "EPSG:32646",
+  "floor_count": 15,
+  "units_per_floor": 3,
+  "unit_count": 45,
+  "relationships": {
+    "unit_inside_floor": true,
+    "unit_inside_building": true,
+    "unit_inside_parcel": true,
+    "floor_area_covered": true,
+    "unit_overlap": false
+  }
+}

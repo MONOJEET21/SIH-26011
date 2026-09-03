@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "study_area",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32646" } },
+"features": [
+{ "type": "Feature", "properties": { "study_area_id": "AS01", "name": "Synthetic ULPIN Study Area" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 500000.0, 2940000.0 ], [ 500600.0, 2940000.0 ], [ 500600.0, 2940600.0 ], [ 500000.0, 2940600.0 ], [ 500000.0, 2940000.0 ] ] ] } }
+]
+}

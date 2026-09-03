@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "buildings",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "building_id": "B001", "parcel_id": "P001", "building_type": "RESIDENTIAL", "height_m": 15.0, "floors_estimated": 5, "z_min": 0.0, "z_max": 15.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 93.000602531040315, 26.581374583887634 ], [ 93.001707171280586, 26.581374574929772 ], [ 93.001707192703634, 26.582819235460271 ], [ 93.000602538601399, 26.582819244418694 ], [ 93.000602531040315, 26.581374583887634 ] ] ] } },
+{ "type": "Feature", "properties": { "building_id": "B002", "parcel_id": "P002", "building_type": "RESIDENTIAL", "height_m": 18.0, "floors_estimated": 5, "z_min": 0.0, "z_max": 18.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 93.002510546000337, 26.581374563033169 ], [ 93.003615186238974, 26.581374539275359 ], [ 93.003615231605451, 26.58281919980362 ], [ 93.002510577504822, 26.582819223562922 ], [ 93.002510546000337, 26.581374563033169 ] ] ] } },
+{ "type": "Feature", "properties": { "building_id": "B003", "parcel_id": "P003", "building_type": "RESIDENTIAL", "height_m": 21.0, "floors_estimated": 5, "z_min": 0.0, "z_max": 21.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 93.004418560957006, 26.581374516615163 ], [ 93.005523201192531, 26.581374478057413 ], [ 93.005523270502422, 26.582819138581833 ], [ 93.004418616404905, 26.582819177141999 ], [ 93.004418560957006, 26.581374516615163 ] ] ] } }
+]
+}

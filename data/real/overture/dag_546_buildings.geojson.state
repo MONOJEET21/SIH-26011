@@ -1,0 +1,14 @@
+{
+  "last_release": "2026-08-19.0",
+  "last_run": "2026-09-03T11:39:22.822813+00:00",
+  "theme": "buildings",
+  "type": "building",
+  "bbox": {
+    "xmin": 91.7673,
+    "ymin": 26.1658,
+    "xmax": 91.7683,
+    "ymax": 26.1669
+  },
+  "backend": "geojson",
+  "output": "D:\\SOLID IDEA\\3d-ulpin\\data\\real\\overture\\dag_546_buildings.geojson"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="dag_546" id="dag_546">
+	<SimpleField name="source" type="string"></SimpleField>
+	<SimpleField name="authority" type="string"></SimpleField>
+	<SimpleField name="dag_no" type="string"></SimpleField>
+	<SimpleField name="ulpin" type="string"></SimpleField>
+	<SimpleField name="location_code" type="string"></SimpleField>
+	<SimpleField name="village" type="string"></SimpleField>
+	<SimpleField name="mouza" type="string"></SimpleField>
+	<SimpleField name="circle" type="string"></SimpleField>
+	<SimpleField name="district" type="string"></SimpleField>
+	<SimpleField name="area_m2" type="float"></SimpleField>
+	<SimpleField name="textparcel" type="string"></SimpleField>
+</Schema>
+<Folder><name>dag_546</name>
+  <Placemark id="dag_546.1">
+	<name>Dag 546</name>
+	<description>Real Bhunaksha cadastral parcel | Dag 546 | ULPIN 8456A2E5NVP0H0</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#dag_546">
+		<SimpleData name="source">Assam Bhunaksha</SimpleData>
+		<SimpleData name="authority">Government of Assam</SimpleData>
+		<SimpleData name="dag_no">546</SimpleData>
+		<SimpleData name="ulpin">8456A2E5NVP0H0</SimpleData>
+		<SimpleData name="location_code">240103020320001</SimpleData>
+		<SimpleData name="village">Chahar Ulubari Block2</SimpleData>
+		<SimpleData name="mouza">Ulubari</SimpleData>
+		<SimpleData name="circle">Ulubari</SimpleData>
+		<SimpleData name="district">Kamrup</SimpleData>
+		<SimpleData name="area_m2">2592.6870999148</SimpleData>
+		<SimpleData name="textparcel">546</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>91.7677814124539,26.1666120830915 91.7678014651936,26.1666332506586 91.7678333993613,26.1666689541582 91.7678798479888,26.1666280463609 91.7679206324809,26.1665917455485 91.7679589693387,26.1665574476182 91.7680005545015,26.166519749304 91.7680318604509,26.1664917208783 91.7680744407452,26.1664536791429 91.7681092082675,26.1664221826011 91.7681431497373,26.166391618423 91.768142975524,26.1663912541328 91.7681258855247,26.1663717497117 91.7680605226875,26.1662985440601 91.7679990627687,26.1662299689475 91.7679410173464,26.1661650658179 91.7678795873307,26.166096975522 91.7678224049978,26.1660332707851 91.7677701203454,26.1659766667238 91.7677590006008,26.1659859650649 91.7677096793659,26.1660295413826 91.7676795744702,26.1660553988193 91.767644319368,26.1660875781895 91.7675557454702,26.1661655848955 91.767499285269,26.1662159021353 91.7674553659445,26.1662541885951 91.7674537201436,26.1662555048463 91.7674781154296,26.1662803284508 91.767510011931,26.1663136135658 91.7675403103742,26.1663467451757 91.76756666735,26.1663756530447 91.7675998749856,26.1664109917402 91.7676300293506,26.1664448366559 91.7676641358784,26.1664828679359 91.7676970089488,26.1665177777201 91.7677256037438,26.166548936911 91.7677633521051,26.1665912085518 91.7677777471202,26.16660821377 91.7677814124539,26.1666120830915</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

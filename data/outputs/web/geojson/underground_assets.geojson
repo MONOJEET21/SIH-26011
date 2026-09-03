@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "underground_assets",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "asset_id": "UA001", "asset_type": "WATER_PIPE", "asset_name": "Primary Water Supply", "parcel_id": "P001", "z_min": -4.0, "z_max": -3.0, "depth_min_m": 3.0, "depth_max_m": 4.0, "length_m": 80.0, "width_m": 2.0, "area_m2": 160.0, "volume_m3": 160.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 93.0015565481647, 26.582087877829466 ], [ 93.001556548408871, 26.582105936086098 ], [ 93.000753168585021, 26.582105942601117 ], [ 93.000753168466886, 26.582087884344478 ], [ 93.0015565481647, 26.582087877829466 ] ] ] } },
+{ "type": "Feature", "properties": { "asset_id": "UA002", "asset_type": "ELECTRIC_DUCT", "asset_name": "Underground Electrical Corridor", "parcel_id": "P003", "z_min": -6.0, "z_max": -5.0, "depth_min_m": 5.0, "depth_max_m": 6.0, "length_m": 80.0, "width_m": 2.5, "area_m2": 200.0, "volume_m3": 200.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 93.005372601615733, 26.582085527708504 ], [ 93.005372602669155, 26.582108100529204 ], [ 93.004569222833027, 26.582108128572095 ], [ 93.004569221937118, 26.582085555751366 ], [ 93.005372601615733, 26.582085527708504 ] ] ] } }
+]
+}

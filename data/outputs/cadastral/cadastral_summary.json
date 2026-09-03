@@ -1,0 +1,23 @@
+{
+  "schema": {
+    "name": "Proposed 3D ULPIN Cadastral Model",
+    "version": "0.1.0",
+    "status": "prototype",
+    "crs": "EPSG:32646",
+    "geometry_source": "GeoJSON + OBJ",
+    "ulpin_status": "not_generated"
+  },
+  "statistics": {
+    "study_areas": 1,
+    "parcels": 3,
+    "buildings": 3,
+    "floors": 16,
+    "property_units": 45,
+    "underground_assets": 2
+  },
+  "validation": {
+    "hierarchy": "PASSED",
+    "crs": "PASSED",
+    "source_geometry": "PASSED"
+  }
+}

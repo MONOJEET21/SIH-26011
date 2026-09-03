@@ -1,0 +1,187 @@
+{
+  "project": "3D ULPIN Prototype",
+  "validator": "Cadastral Topology Validation Engine",
+  "version": "1.0.0",
+  "crs": "EPSG:32646",
+  "overall_status": "PASSED",
+  "statistics": {
+    "parcels": 3,
+    "buildings": 3,
+    "floors": 16,
+    "property_units": 45,
+    "underground_assets": 2,
+    "total_checks": 21,
+    "failed_checks": 0,
+    "warnings": 0
+  },
+  "results": [
+    {
+      "category": "PARCEL",
+      "check": "geometry_validity",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All parcel geometries are valid."
+    },
+    {
+      "category": "PARCEL",
+      "check": "overlap",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "No meaningful parcel overlaps detected."
+    },
+    {
+      "category": "BUILDING",
+      "check": "geometry_validity",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All building geometries are valid."
+    },
+    {
+      "category": "BUILDING",
+      "check": "parcel_containment",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All buildings are contained within their parent parcels."
+    },
+    {
+      "category": "BUILDING",
+      "check": "z_range",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All building Z ranges are valid."
+    },
+    {
+      "category": "BUILDING",
+      "check": "overlap",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "No meaningful building overlaps detected."
+    },
+    {
+      "category": "FLOOR",
+      "check": "geometry_validity",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All floor geometries are valid."
+    },
+    {
+      "category": "FLOOR",
+      "check": "building_containment",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All floors are contained within their parent buildings."
+    },
+    {
+      "category": "FLOOR",
+      "check": "z_range",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All floor Z ranges are valid."
+    },
+    {
+      "category": "FLOOR",
+      "check": "vertical_consistency",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "No invalid vertical floor overlaps detected."
+    },
+    {
+      "category": "PROPERTY_UNIT",
+      "check": "geometry_validity",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All property-unit geometries are valid."
+    },
+    {
+      "category": "PROPERTY_UNIT",
+      "check": "floor_containment",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All property units are contained within their parent floors."
+    },
+    {
+      "category": "PROPERTY_UNIT",
+      "check": "building_containment",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All property units are contained within their parent buildings."
+    },
+    {
+      "category": "PROPERTY_UNIT",
+      "check": "parcel_containment",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All property units are contained within their parent parcels."
+    },
+    {
+      "category": "PROPERTY_UNIT",
+      "check": "z_range",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All property-unit Z ranges are valid."
+    },
+    {
+      "category": "PROPERTY_UNIT",
+      "check": "overlap",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "No meaningful property-unit overlaps detected."
+    },
+    {
+      "category": "PROPERTY_UNIT",
+      "check": "floor_z_containment",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All property-unit Z ranges fit within their parent floors."
+    },
+    {
+      "category": "UNDERGROUND_ASSET",
+      "check": "geometry_validity",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All underground asset geometries are valid."
+    },
+    {
+      "category": "UNDERGROUND_ASSET",
+      "check": "parcel_containment",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All underground assets are contained within their parent parcels."
+    },
+    {
+      "category": "UNDERGROUND_ASSET",
+      "check": "depth_range",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "All underground asset depth ranges are valid."
+    },
+    {
+      "category": "UNDERGROUND_ASSET",
+      "check": "overlap",
+      "status": "PASSED",
+      "severity": "INFO",
+      "object_id": null,
+      "message": "No meaningful underground asset overlaps detected."
+    }
+  ]
+}

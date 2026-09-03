@@ -1,0 +1,88 @@
+{
+  "project": {
+    "name": "3D ULPIN Prototype",
+    "version": "0.1.0",
+    "status": "prototype",
+    "ulpin_schema": "proposed"
+  },
+  "coordinate_reference_system": {
+    "source": "EPSG:32646",
+    "web": "EPSG:4326",
+    "note": "Source spatial processing uses a projected CRS. Web GeoJSON is exported to EPSG:4326."
+  },
+  "dataset": {
+    "study_areas": 1,
+    "parcels": 3,
+    "buildings": 3,
+    "floors": 16,
+    "property_units": 45,
+    "underground_assets": 2,
+    "expected_crs": "EPSG:32646",
+    "web_crs": "EPSG:4326"
+  },
+  "layers": {
+    "study_area": {
+      "type": "GeoJSON",
+      "file": "geojson/study_area.geojson"
+    },
+    "parcels": {
+      "type": "GeoJSON",
+      "file": "geojson/parcels.geojson"
+    },
+    "buildings": {
+      "type": "GeoJSON",
+      "file": "geojson/buildings.geojson"
+    },
+    "floors": {
+      "type": "GeoJSON",
+      "file": "geojson/floors.geojson"
+    },
+    "property_units": {
+      "type": "GeoJSON",
+      "file": "geojson/property_units.geojson"
+    },
+    "underground_assets": {
+      "type": "GeoJSON",
+      "file": "geojson/underground_assets.geojson"
+    }
+  },
+  "models": {
+    "buildings": {
+      "available": true,
+      "file": "buildings_3d.obj"
+    },
+    "floors": {
+      "available": true,
+      "file": "floors_3d.obj"
+    },
+    "property_units": {
+      "available": true,
+      "file": "property_units_3d.obj"
+    },
+    "underground_assets": {
+      "available": true,
+      "file": "underground_assets_3d.obj"
+    }
+  },
+  "metadata": {
+    "floors": "3d/floors_3d_metadata.json",
+    "property_units": "3d/property_units_3d_metadata.json",
+    "underground_assets": "3d/underground_assets_3d_metadata.json"
+  },
+  "identity": {
+    "ulpin_registry": "identity/ulpins.json",
+    "ulpin_count": 47
+  },
+  "hierarchy": {
+    "study_area": "PARCEL",
+    "parcel": "BUILDING",
+    "building": "FLOOR",
+    "floor": "PROPERTY_UNIT",
+    "parcel_underground_branch": "UNDERGROUND_ASSET"
+  },
+  "backend_ready": {
+    "master_model_available": true,
+    "api_expected": true,
+    "frontend_should_not_access_database": true
+  }
+}

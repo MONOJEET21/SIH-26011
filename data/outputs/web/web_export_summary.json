@@ -1,0 +1,28 @@
+{
+  "status": "PASSED",
+  "dataset": {
+    "study_areas": 1,
+    "parcels": 3,
+    "buildings": 3,
+    "floors": 16,
+    "property_units": 45,
+    "underground_assets": 2,
+    "expected_crs": "EPSG:32646",
+    "web_crs": "EPSG:4326"
+  },
+  "geojson_exports": 6,
+  "3d_models": {
+    "buildings": true,
+    "floors": true,
+    "property_units": true,
+    "underground_assets": true
+  },
+  "ulpins": 47,
+  "entities": 69,
+  "master_model_available": true,
+  "outputs": {
+    "manifest": "D:\\SOLID IDEA\\3d-ulpin\\data\\outputs\\web\\web_manifest.json",
+    "entity_index": "D:\\SOLID IDEA\\3d-ulpin\\data\\outputs\\web\\entity_index.json",
+    "ulpin_lookup": "D:\\SOLID IDEA\\3d-ulpin\\data\\outputs\\web\\ulpin_lookup.json"
+  }
+}
