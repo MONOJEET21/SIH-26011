@@ -14,3 +14,4 @@ frontend/dist/
 frontend/.vite/
 
 *.log
+backend/3d_ulpin_db_backup.dump
