@@ -71,3 +71,10 @@ def root():
     return {
         "message": "3D ULPIN Backend is running",
     }
+
+
+@app.get("/health")
+def health():
+    return {
+        "status": "healthy",
+    }
