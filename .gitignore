@@ -15,3 +15,6 @@ frontend/.vite/
 
 *.log
 backend/3d_ulpin_db_backup.dump
+
+# Local GIS source datasets
+ulpin/
