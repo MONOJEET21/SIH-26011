@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from backend.app.api.v1.ai import router as ai_router
 # =========================================================
 # EXISTING CADASTRAL / QUERY API
 # =========================================================
