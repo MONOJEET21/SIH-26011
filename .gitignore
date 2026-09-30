@@ -18,3 +18,7 @@ backend/3d_ulpin_db_backup.dump
 
 # Local GIS source datasets
 ulpin/
+
+# Local environment files
+*.env
+.env.*
